@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 app.enable('trust proxy');
 
 
-var port = process.env.NODE_ENV == 'development' ? 9000 : 9001;
+var port = process.env.NODE_ENV == 'development' ? 10000 : 10001;
 
 app.listen(port, function () {
   console.log('Example app listening on port '+port+'!');
