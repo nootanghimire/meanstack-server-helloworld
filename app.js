@@ -9,6 +9,6 @@ var app = express();
 
 
 http.createServer(9000, function() {
-	res.send("Wassup!");
+	res.send("Wassup ver2!");
 });
 
