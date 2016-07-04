@@ -1,14 +1,11 @@
-//Express, baby!
-
-var http = require('http')
-, express = require('express)
-;
-
-
+var express = require('express');
 var app = express();
 
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
 
-http.createServer(9000, function() {
-	res.send("Wassup ver2!");
+app.listen(9000, function () {
+  console.log('Example app listening on port 9000!');
 });
 
