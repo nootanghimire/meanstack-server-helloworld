@@ -1,0 +1,19 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "Sample First Time Node Deployment Basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nootanghimire/meanstack-server-helloworld.git"
+  },
+  "author": "Nootan Ghimire <nootan.ghimire@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nootanghimire/meanstack-server-helloworld/issues"
+  },
+  "homepage": "https://github.com/nootanghimire/meanstack-server-helloworld#readme"
+}
