@@ -11,5 +11,5 @@ read commit_message
 cd /home/nootan/node_apps/first_timer/dev || error_exit "[x] Error Changing Directory. Exiting..."
 git add -A
 git commit -m "$commit_message"
-git push origin
-git push production master
+git push -u origin --all
+git push -u production master
