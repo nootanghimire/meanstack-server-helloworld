@@ -1,7 +1,14 @@
-console.log("Started The App");
-console.error("Dummy Error");
+//Express, baby!
+
+var http = require('http')
+, express = require('express)
+;
 
 
-while(1) {
- //dummy infinite loop, 
-}
+var app = express();
+
+
+http.createServer(9000, function() {
+	res.send("Wassup!");
+});
+

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nootanghimire/meanstack-server-helloworld/issues"
   },
-  "homepage": "https://github.com/nootanghimire/meanstack-server-helloworld#readme"
+  "homepage": "https://github.com/nootanghimire/meanstack-server-helloworld#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http": "0.0.0"
+  }
 }
